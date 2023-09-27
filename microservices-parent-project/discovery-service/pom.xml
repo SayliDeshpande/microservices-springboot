@@ -17,6 +17,10 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
+		 <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-sleuth</artifactId>
@@ -26,7 +30,7 @@
 			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
 		</dependency>
 	</dependencies>
-	<dependencyManagement>
+	<!--<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
@@ -36,5 +40,5 @@
 				<scope>import</scope>
 			</dependency>
 		</dependencies>
-	</dependencyManagement>
+	</dependencyManagement>-->
 </project>
